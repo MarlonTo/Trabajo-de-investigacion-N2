@@ -20,7 +20,7 @@ Diseñar y desarrollar el código, e implementar una calculadora básica.
 Estructurar la información obtenida como insumo para realizar una exposición ante la clase. 
 
 
-###3.ESTADO DEL ARTE
+### 3.ESTADO DEL ARTE
 
 (Fatima, 2017) dice que: Como profesional web, el desarrollo es una parte fundamental y no hay escasez de lenguajes de programación, siendo Python la tendencia. Python es un lenguaje de programación interactivo y comenzar a programar un marco GUI (interfaz gráfica de usuario) no es una tarea difícil. Python tiene una amplia gama de opciones para marcos de GUI. Desde marcos multiplataforma a marcos específicos de plataforma, el wiki de Python los enumera a todos.
 
