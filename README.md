@@ -1,4 +1,4 @@
-# Trabajo-de-investigacion-N2 
+### Análisis de 3 bibliotecas GUI para Python 
 
 1.PLANTEAMIENTO DEL PROBLEMA
 Analizar 3 bibliotecas GUI(Graphics User Interface) para Python, y utilizar una de estas para implementar una calculadora básica (suma, resta multiplicación, división) y explicar cada una de las funciones empleadas en el programa.
