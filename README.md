@@ -49,6 +49,8 @@ Lugar: Universitat Oberta de Catalunya, España.
 Una GUI es una interfaz de usuario gráfica (en lugar de puramente textual) para una computadora. Al leer cualquier página web o aplicación estás viendo e interactuando con una GUI o la interfaz gráfica de usuario. El término entró en existencia porque las primeras interfaces de usuario interactivas a las computadoras no eran gráficas; estaban orientadas a texto y teclado, y por lo general consistían en comandos que tenía que recordar y las respuestas de la computadora que eran infamemente breves. La interfaz de comandos del sistema operativo DOS que todavía se puede obtener desde su sistema operativo Windows es un ejemplo de la interfaz típica entre usuario y equipo antes de que llegaran las GUI. Un paso intermedio en las interfaces de usuario entre la interfaz de línea de comandos y la interfaz gráfica de usuario era la interfaz basada en menús no gráfica, que le permitía interactuar utilizando un ratón en lugar de tener que escribir comandos del teclado.
 La GUI familiar a la mayoría de nosotros hoy, en cualquiera de los sistemas operativos Mac o Windows y sus aplicaciones, se originó en el Laboratorio de Investigación de Xerox Palo Alto, a finales de 1970. Apple lo utilizó en sus primeras computadoras Macintosh. Posteriormente, Microsoft utilizó muchas de las mismas ideas en su primera versión del sistema operativo Windows para PCs compatibles con IBM.(¿Qué Es GUI (Interfaz Gráfica de Usuario) ? - Definición En WhatIs.Com, n.d.)
 
+![](img/gui.jpg)
+
 #### ¿Qué es Python?
 
 Python fue creado a finales de los ochenta por Guido van Rossum en el Centro para las Matemáticas y la Informática (CWI, Centrum Wiskunde & Informatica), en los Países Bajos, como un sucesor del lenguaje de programación ABC, capaz de manejar excepciones e interactuar con el sistema operativo Amoeba. El nombre del lenguaje proviene de la afición de un grupo británico de comediantes conocidos como Monty Python. (Python, n.d.)
@@ -59,6 +61,8 @@ Afortunadamente, hay muchas opciones disponibles para los programadores que busc
 En este punto, tiene que evaluar bien el hecho de necesitar una interface gráfica. Al momento de desarrollar una aplicación, también debe considerar una interface web, especialmente si cree que los usuarios puedan querer alojar su aplicación de forma remota, y proyectos como Django, Flask o Pyramid hacen que esto sea sencillo. Incluso puede usar una librería como pywebview para colocar una capa delgada alrededor de una aplicación web en una ventana GUI más nativa.
 O puede utilizar un framework como Pyforms para crear una experiencia coherente en la web, la línea de comandos y el escritorio, todo con una única base de código.
 Las tres bibliotecas de las gui:
+
+![](img/pyhotn.jpg)
 
 ###### WxPython
 
