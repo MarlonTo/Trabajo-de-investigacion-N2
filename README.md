@@ -22,31 +22,25 @@ Estructurar la información obtenida como insumo para realizar una exposición a
 
 ### 3.ESTADO DEL ARTE
 
-(Fatima, 2017) dice que: Como profesional web, el desarrollo es una parte fundamental y no hay escasez de lenguajes de programación, siendo Python la tendencia. Python es un lenguaje de programación interactivo y comenzar a programar un marco GUI (interfaz gráfica de usuario) no es una tarea difícil. Python tiene una amplia gama de opciones para marcos de GUI. Desde marcos multiplataforma a marcos específicos de plataforma, el wiki de Python los enumera a todos.
+##### Tema: Instbio: Librería de Python para simular circuitos electrónicos de instrumentos biomédicos.
 
-Entonces, comencemos con nuestra lista de los 6 mejores marcos de Python GUI:
+Investigadores: Higuera Gonzalez Rogelio Manuel y Martínez García Adriana
 
-Kivy
-Kivy es un marco acelerado de OpenGL ES 2 para la creación de nuevas interfaces de usuario. Es compatible con múltiples plataformas, a saber, Windows, MacOSX, Linux, Android iOS y Raspberry Pi. Es de código abierto y viene con más de 20 widgets en su kit de herramientas.
+Año: 2018
 
-PyQT
-PyQT es uno de los enlaces Python multiplataforma favoritos que implementa la biblioteca Qt para el marco de desarrollo de aplicaciones Qt (propiedad de Nokia). Actualmente, PyQT está disponible para Unix / Linux, Windows, Mac OS X y Sharp Zaurus. Combina lo mejor de Python y Qt y depende del programador decidir si crear un programa codificando o usando Qt Designer para crear diálogos visuales.
-Está disponible tanto en licencia comercial como en licencia GPL. Aunque algunas características pueden no estar disponibles en la versión gratuita, si su aplicación es de código abierto, puede usarla bajo la licencia gratuita.
+En este trabajo de investigación, se desarrolló e implementó la librería Instbio para observar la respuesta de los circuitos electrónicos que constituyen a los instrumentos biomédicos. Los resultados obtenidos se compararon con resultados experimentales, los cuales confirman que el uso de la librería es eficiente, puesto que los resultados tienen una variación máxima del 6% entre sí.
 
-Tkinter
-Tkinter se incluye comúnmente con Python, usando Tk y es el marco de GUI estándar de Python. Es popular por su simplicidad y su interfaz gráfica de usuario. Es de código abierto y está disponible bajo la licencia de Python.
-Una de las ventajas de elegir Tkinter es que, dado que viene por defecto, existe una gran cantidad de recursos, tanto códigos como libros de referencia. Además, dado que la comunidad es antigua y activa, hay muchos usuarios que pueden ayudarlo en caso de dudas. Aquí hay algunos ejemplos para comenzar.
+Lugar: Tecnológico Nacional de México (TECNM), México.
 
-WxPython
-WxPython es un contenedor de código abierto para la biblioteca GUI multiplataforma WxWidgets (anteriormente conocida como WxWindows) y se implementa como un módulo de extensión de Python. Con WxPython, usted como desarrollador puede crear aplicaciones nativas para Windows, Mac OS y Unix.
-Si recién está comenzando a desarrollar aplicaciones en WxPython, aquí hay un buen tutorial simple que puede seguir.
+##### Tema: Programación de una librería de Python capaz de leer ficheros PDB para representar proteínas en 3D.
 
-PyGUI
-PyGUI es un marco de aplicaciones gráficas multiplataforma para Unix, Macintosh y Windows. En comparación con algunos otros marcos de GUI, PyGUI es, con mucho, el más simple y ligero de todos, ya que la API está puramente sincronizada con Python. PyGUI inserta muy poco código entre la plataforma GUI y la aplicación Python, por lo tanto, la pantalla de la aplicación generalmente se muestra La GUI natural de la plataforma.
- 
-PySide
-PySide es un kit de herramientas GUI gratuito y multiplataforma Qt iniciado y patrocinado por Nokia, Qt es un marco de interfaz de usuario y una aplicación multiplataforma. PySide actualmente es compatible con Linux / X11, Mac OS X, Maemo y Windows, y el soporte para Android está en los planes para el futuro cercano. PySide proporciona herramientas para trabajar con multimedia, documentos XML, redes, bases de datos y GUI. Una característica clave de PySide es su compatibilidad API con PyQt4, por lo que si desea migrar a PySide, el proceso será sin complicaciones.
-Estos son algunos de los mejores marcos de interfaz gráfica de usuario de Python disponibles. Estos marcos ayudan a los desarrolladores a crear aplicaciones GUI de una manera fácil y segura. Dependiendo de sus requisitos, puede elegir el marco de la GUI de Python que mejor se adapte a usted.
+Investigadores: Cabrelles Muñoz.
+
+Año:2018
+
+Este proyecto tiene como finalidad el uso de librerías de Python para la visualización de estructuras proteicas tridimensionales mediante el procesado de archivos PDB. Para ello, se utilizaron las herramientas ofrecidas por BioPython para el procesado de datos, y las librerías matplotlib y VisPy para la visualización de los datos procesados. El resultado de este trabajo es un programa cuya interfaz gráfica fue creada mediante la librería Tkinter, que permite la selección del archivo a representar, la selección del motor que se utilizará para la visualización y qué tipo de visualización se generará (CPK, según el tipo de aminoácido al que pertenece, dividido en cadenas, y usando DSSP).
+
+Lugar: Universitat Oberta de Catalunya, España.
  
 ### 4.MARCO TEÓRICO
 
@@ -575,6 +569,11 @@ Cada vez que seleccione un botón de opción, el valor de la variable cambiará 
 ### APORTACIONES
  
 ### CONCLUSIONES
+
+Se pudo modificar un algoritmo en lenguaje de programación Python el cual nos permite realizar las 4 operaciones básicas.
+ 
+Las librerías de entorno visual son una gran herramienta la cual permite al usuario poder interactuar con el programa de una manera más dinámica y visual.
+
  
 ### RECOMENDACIONES
  
