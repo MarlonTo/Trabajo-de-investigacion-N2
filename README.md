@@ -659,6 +659,8 @@ Se pudo modificar un algoritmo en lenguaje de programación Python el cual nos p
  
 Tkinter es excelente para aplicaciones GUI pequeñas y rápidas, y dado que se ejecuta en más plataformas que cualquier otro kit de herramientas GUI de Python, es una buena opción donde la portabilidad es la principal preocupación.
 
+La librería Tkinter esta pensada para resolver problemas pequeños y, en cambio las otras dos librerías PyQt y WxPython están diseñadas para resolver problemas mas complejos. 
+
  
 ## 9. RECOMENDACIONES
 
