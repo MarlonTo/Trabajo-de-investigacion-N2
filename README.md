@@ -615,25 +615,25 @@ Cada vez que seleccione un botón de opción, el valor de la variable cambiará 
 
 ![](IMG/Capture.PNG)
  
-## 7. EXPLICACIÓN DE CÓDIGO FUENTE
 
-## 8. APORTACIONES
+
+## 7. APORTACIONES
  
-## 9. CONCLUSIONES
+## 8. CONCLUSIONES
 
 Se pudo modificar un algoritmo en lenguaje de programación Python el cual nos permite realizar las 4 operaciones básicas.
  
 Tkinter es excelente para aplicaciones GUI pequeñas y rápidas, y dado que se ejecuta en más plataformas que cualquier otro kit de herramientas GUI de Python, es una buena opción donde la portabilidad es la principal preocupación.
 
  
-## 10. RECOMENDACIONES
+## 9. RECOMENDACIONES
  
-## 11. CRONOGRAMA
+## 10. CRONOGRAMA
 
 ![](IMG/15.PNG)
 
  
-## 12. BIBLIOGRAFÍA:
+## 11. BIBLIOGRAFÍA:
 
 (Wxpython - Empezando Con Wxpython | Wxpython Tutorial, n.d.)¿Qué es GUI (interfaz gráfica de usuario) ? - Definición en WhatIs.com. (n.d.). Retrieved July 18, 2020, from https://searchdatacenter.techtarget.com/es/definicion/GUI-interfaz-grafica-de-usuario
 
@@ -652,4 +652,4 @@ wxpython - Empezando con wxpython | wxpython Tutorial. (n.d.). Retrieved July 19
  
  
  
-## 13. ANEXOS
+## 12. ANEXOS
