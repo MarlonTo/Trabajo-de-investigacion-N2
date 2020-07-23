@@ -609,29 +609,29 @@ window.mainloop()
 
 Cada vez que seleccione un botón de opción, el valor de la variable cambiará al valor de la opción seleccionada.
  
-## LISTA DE COMPONENTES
+## 5. LISTA DE COMPONENTES
  
-## MAPA DE VARIABLES
+## 6. MAPA DE VARIABLES
  
-## EXPLICACIÓN DE CÓDIGO FUENTE
+## 7. EXPLICACIÓN DE CÓDIGO FUENTE
 
-## APORTACIONES
+## 8. APORTACIONES
  
-## CONCLUSIONES
+## 9. CONCLUSIONES
 
 Se pudo modificar un algoritmo en lenguaje de programación Python el cual nos permite realizar las 4 operaciones básicas.
  
 Tkinter es excelente para aplicaciones GUI pequeñas y rápidas, y dado que se ejecuta en más plataformas que cualquier otro kit de herramientas GUI de Python, es una buena opción donde la portabilidad es la principal preocupación.
 
  
-## RECOMENDACIONES
+## 10. RECOMENDACIONES
  
-## CRONOGRAMA
+## 11. CRONOGRAMA
 
 ![](IMG/15.PNG)
 
  
-## BIBLIOGRAFÍA:
+## 12. BIBLIOGRAFÍA:
 
 (Wxpython - Empezando Con Wxpython | Wxpython Tutorial, n.d.)¿Qué es GUI (interfaz gráfica de usuario) ? - Definición en WhatIs.com. (n.d.). Retrieved July 18, 2020, from https://searchdatacenter.techtarget.com/es/definicion/GUI-interfaz-grafica-de-usuario
 
@@ -650,4 +650,4 @@ wxpython - Empezando con wxpython | wxpython Tutorial. (n.d.). Retrieved July 19
  
  
  
-## ANEXOS
+## 13. ANEXOS
