@@ -1,17 +1,17 @@
 # Informe 
 ## Análisis de 3 bibliotecas GUI para Python 
 
-### 1.PLANTEAMIENTO DEL PROBLEMA
+## 1.PLANTEAMIENTO DEL PROBLEMA
 
 Analizar 3 bibliotecas GUI(Graphics User Interface) para Python, y utilizar una de estas para implementar una calculadora básica (suma, resta multiplicación, división) y explicar cada una de las funciones empleadas en el programa.
 
-### 2.OBJETIVOS
+## 2.OBJETIVOS
 
-#### General:
+### General:
 
 Investigar las principales y  más utilizadas librerías GUI para Python, por medio de la abstracción de información, para así poder conocer las funcionalidades que estas tienen y posteriormente dar una explicación a la clase
 
-#### Específicos:
+### Específicos:
 
 Indagar en los buscadores las librerías GUI más utilizadas por los usuarios de internet.
 
@@ -20,9 +20,9 @@ Diseñar y desarrollar el código, e implementar una calculadora básica.
 Estructurar la información obtenida como insumo para realizar una exposición ante la clase. 
 
 
-### 3.ESTADO DEL ARTE
+## 3.ESTADO DEL ARTE
 
-##### Tema: Instbio: Librería de Python para simular circuitos electrónicos de instrumentos biomédicos.
+### Tema: Instbio: Librería de Python para simular circuitos electrónicos de instrumentos biomédicos.
 
 Investigadores: Higuera Gonzalez Rogelio Manuel y Martínez García Adriana
 
@@ -32,7 +32,7 @@ En este trabajo de investigación, se desarrolló e implementó la librería Ins
 
 Lugar: Tecnológico Nacional de México (TECNM), México.
 
-##### Tema: Programación de una librería de Python capaz de leer ficheros PDB para representar proteínas en 3D.
+### Tema: Programación de una librería de Python capaz de leer ficheros PDB para representar proteínas en 3D.
 
 Investigadores: Cabrelles Muñoz.
 
@@ -42,16 +42,16 @@ Este proyecto tiene como finalidad el uso de librerías de Python para la visual
 
 Lugar: Universitat Oberta de Catalunya, España.
  
-### 4.MARCO TEÓRICO
+## 4.MARCO TEÓRICO
 
-#### ¿Qué es Gui?
+### ¿Qué es Gui?
 
 Una GUI es una interfaz de usuario gráfica (en lugar de puramente textual) para una computadora. Al leer cualquier página web o aplicación estás viendo e interactuando con una GUI o la interfaz gráfica de usuario. El término entró en existencia porque las primeras interfaces de usuario interactivas a las computadoras no eran gráficas; estaban orientadas a texto y teclado, y por lo general consistían en comandos que tenía que recordar y las respuestas de la computadora que eran infamemente breves. La interfaz de comandos del sistema operativo DOS que todavía se puede obtener desde su sistema operativo Windows es un ejemplo de la interfaz típica entre usuario y equipo antes de que llegaran las GUI. Un paso intermedio en las interfaces de usuario entre la interfaz de línea de comandos y la interfaz gráfica de usuario era la interfaz basada en menús no gráfica, que le permitía interactuar utilizando un ratón en lugar de tener que escribir comandos del teclado.
 La GUI familiar a la mayoría de nosotros hoy, en cualquiera de los sistemas operativos Mac o Windows y sus aplicaciones, se originó en el Laboratorio de Investigación de Xerox Palo Alto, a finales de 1970. Apple lo utilizó en sus primeras computadoras Macintosh. Posteriormente, Microsoft utilizó muchas de las mismas ideas en su primera versión del sistema operativo Windows para PCs compatibles con IBM.(¿Qué Es GUI (Interfaz Gráfica de Usuario) ? - Definición En WhatIs.Com, n.d.)
 
 ![](IMG/gui.jpg)
 
-#### ¿Qué es Python?
+### ¿Qué es Python?
 
 Python fue creado a finales de los ochenta por Guido van Rossum en el Centro para las Matemáticas y la Informática (CWI, Centrum Wiskunde & Informatica), en los Países Bajos, como un sucesor del lenguaje de programación ABC, capaz de manejar excepciones e interactuar con el sistema operativo Amoeba. El nombre del lenguaje proviene de la afición de un grupo británico de comediantes conocidos como Monty Python. (Python, n.d.)
 Python es un lenguaje de programación interpretado el cual hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional.
@@ -67,7 +67,7 @@ Las tres bibliotecas de las gui:
 
 
 
-###### WxPython
+#### WxPython
 
 WxPython le da a un desarrollador una forma de beneficiarse de una biblioteca de GUI multiplataforma, con una licencia clara, al mismo tiempo que brinda los beneficios de Python. Al igual que wxWidgets y Python, wxPython es gratuito y de código abierto, y está disponible para su uso y distribución en proyectos tanto gratuitos como comerciales sin el requisito de distribuir su código fuente (Chazallet, 2015).
 Wxpython - Empezando Con Wxpython | Wxpython Tutorial, n.d. dice que: Suite GUI completa que incluye (pero no se limita a): Windows (incluyendo Windows MDI), Magos, Marcos y MiniFrames, diálogos, estándar, avanzado y personalizado, libros, árboles, cuadrículas y controles de vista de datos, tiene indicadores, controles deslizantes, giradores, animaciones, portapapeles, arrastrar y soltar, también tiene compatibilidad con HTML, PDF y visor de imágenes
@@ -138,8 +138,10 @@ Ejemplo:
   
 Aquí está el resultado: 
 
+![](IMG/1.PNG)
 
-###### PyQt
+
+#### PyQt
 PyQt implementa la popular biblioteca Qt, por lo que, si está familiarizado con el desarrollo de Qt en otro idioma, quizás desde el desarrollo de aplicaciones nativas para KDE u otro entorno de escritorio con Qt, es posibles que ya esté familiarizado con Qt. Esto abre la posibilidad de desarrollar aplicaciones en Python que tengan un aspecto familiar en muchas plataformas, al tiempo que aprovechan las herramientas y el conocimiento de la gran comunidad de Qt. (Chazallet, 2015)
 PyQt tiene doble licencia bajo licencia comercial y GLP, similar al proyecto Qt en sí, y la compañía principal que brinda soporte a PyQt ofrece una licencia de FAQ para ayudar a entender lo que esto significa para su aplicación. Para otra opción para usar las bibliotecas Qt con Python, considere la posibilidad de verificar PySide, que está disponible bajo LPGL.(PyQt - Wikipedia, La Enciclopedia Libre, n.d.)
 
@@ -169,8 +171,10 @@ sys.exit(app.exec())
 
 Aquí está el resultado: 
 
+![](IMG/2.PNG)
 
-######  3.   Tkinter
+
+####  3.   Tkinter
 Si hubiera un único paquete que podría denominarse el kit de herramientas GUI “estándar” para Python, sería Tkinter. Tkinter es una envoltura alrededor de Tcl/Tk, una interfaz gráfica popular y el emparejamiento de idiomas que se popularizó por primera vez a principios de los 90. La ventaja de elegir Tkinter es la gran cantidad de recursos, incluidos libros y ejemplos de código, así como una gran comunidad de usuarios que pueden ayudarlo si tiene alguna pregunta. Los ejemplos simples son fáciles de comenzar y bastante legibles para los humanos. Tkinter está disponible bajo la licencia de Python, además de la licencia BSD de Tcl/Tk. (Chazallet, 2015)
 
 Ventajas:
@@ -191,6 +195,8 @@ Lento (dibuja cada botón, etiqueta, menú, etc.)
 
 Apariencia "extraña" (no se parece a las aplicaciones nativas) 
 
+
+
 Ahora vamos a mostrar un pequeño ejemplo de las cosas que se puede hacer en esta librería:
 
 Mokhtar Ebrahim, 2018, dice que Para crear paquete Tkinter y crearemos una ventana y estableceremos su título:
@@ -204,6 +210,8 @@ window.title("Welcome to LikeGeeks app")
 window.mainloop()
 
 La última línea llama a la función mainloop. Esta función llama al ciclo sin fin de la ventana, por lo que la ventana esperará cualquier interacción del usuario hasta que la cerremos. Si olvidas llamar a la función mainloop, no aparecerá nada al usuario.
+
+![](IMG/3.PNG)
 
 Para agregar una etiqueta a nuestro ejemplo anterior, crearemos una etiqueta usando la clase label de la siguiente manera:
 
@@ -226,6 +234,8 @@ lbl = Label(window, text="Hello")
 lbl.grid(column=0, row=0)
 
 window.mainloop()
+
+![](IMG/4.PNG)
 
 Si quieres agregar un botón primero:Comencemos agregando un botón a la ventana. El botón se crea y se agrega a la ventana de la misma manera que la etiqueta
 
@@ -261,6 +271,9 @@ window.mainloop()
 
 Y el resultado se verá así:
 
+![](IMG/5.PNG)
+
+
 Hay que tener en cuenta que colocamos el botón en la segunda columna de la ventana, que es la 1. Si olvidas eso y colocas el botón en la misma columna (en este caso la 0), se mostrará el botón solamente, ya que el botón estará por encima de la etiqueta.
 
 Cambiar los colores de fondo y primer plano de un botón.
@@ -270,6 +283,9 @@ Puedes cambiar el color de frente del botón o de cualquier otro widget usando l
 También, puedes cambiar el color de fondo de cualquier widget usando la propiedad bg.
 
 btn = Button(window, text="Click Me", bg="orange", fg="red").
+
+![](IMG/6.PNG)
+
 
 Ahora, si trataste de hacer click en el botón, no pasó nada, porque el evento click del botón aún no está programado.
 
@@ -311,6 +327,10 @@ window.mainloop()
 
 Y cuando hacemos click en el botón, el resultado es el esperado:
 
+![](IMG/7.PNG)
+
+
+
 Entrada de datos usando la clase Entry (Tkinter textbox)
 
 En los ejemplos anteriores de Python GUI, vimos cómo agregar widgets simples, ahora intentemos obtener una entrada del usuario utilizando la clase Tkinter Entry (cuadro de texto de Tkinter).
@@ -350,6 +370,9 @@ btn.grid(column=2, row=0)
 window.mainloop()
 
 Y el resultado será el siguiente:
+
+![](IMG/8.PNG)
+
 
 
 Ahora, si haces click en el botón, se mostrará el mismo mensaje anterior. ¿Qué tal si se muestra el texto ingresado en el widget de entrada?
@@ -393,6 +416,9 @@ window.mainloop()
 
 Ejecuta el código anterior y verifica el resultado:
 
+![](IMG/9.PNG)
+
+
 Cada vez que ejecutamos el código, tenemos que hacer click en el widget de entrada para establecer el foco para escribir el texto, ¿qué pasa si configuramos el foco automáticamente?
 
 Establecer el foco en el widget de entrada
@@ -407,6 +433,9 @@ Deshabilitar el widget de entrada
 Para deshabilitar el widget de entrada, puedes configurar la propiedad state como deshabilitada (disabled):
 
 txt = Entry(window,width=10, state='disabled')
+
+![](IMG/10.PNG)
+
 
 Ahora, ya no podrás ingresar ningún texto.
 
@@ -439,6 +468,9 @@ combo.current(1) #set the selected item
 combo.grid(column=0, row=0)
 
 window.mainloop()
+
+![](IMG/11.PNG)
+
 
 Como puedes ver, agregamos los elementos del combobox usando una tupla de valores. Para configurar el elemento seleccionado, puedes pasar el índice del elemento deseado a la función actual. Para obtener el elemento seleccionado, puedes usar la función get, como se muestra a continuación:
 
@@ -473,6 +505,9 @@ chk.grid(column=0, row=0)
 window.mainloop()
 
 Verifica el resultado:
+
+![](IMG/12.PNG)
+
 
 Establecer el estado de un Checkbutton
 
@@ -522,6 +557,9 @@ window.mainloop()
 
 El resultado del código anterior se ve así:
 
+![](IMG/13.PNG)
+
+
 Además, puedes configurar el command de cualquiera de estos botones de opción para una función específica, de modo que si el usuario hace click en alguno de ellos, ejecuta el código de la función asignada.
 
 Aquí un ejemplo:
@@ -565,28 +603,31 @@ btn.grid(column=3, row=0)
 
 window.mainloop()
 
+![](IMG/14.PNG)
+
+
 Cada vez que seleccione un botón de opción, el valor de la variable cambiará al valor de la opción seleccionada.
  
-### LISTA DE COMPONENTES
+## LISTA DE COMPONENTES
  
-### MAPA DE VARIABLES
+## MAPA DE VARIABLES
  
-### EXPLICACIÓN DE CÓDIGO FUENTE
+## EXPLICACIÓN DE CÓDIGO FUENTE
 
-### APORTACIONES
+## APORTACIONES
  
-### CONCLUSIONES
+## CONCLUSIONES
 
 Se pudo modificar un algoritmo en lenguaje de programación Python el cual nos permite realizar las 4 operaciones básicas.
  
 Las librerías de entorno visual son una gran herramienta la cual permite al usuario poder interactuar con el programa de una manera más dinámica y visual.
 
  
-### RECOMENDACIONES
+## RECOMENDACIONES
  
-### CRONOGRAMA
+## CRONOGRAMA
  
-### BIBLIOGRAFÍA:
+## BIBLIOGRAFÍA:
 
 (Wxpython - Empezando Con Wxpython | Wxpython Tutorial, n.d.)¿Qué es GUI (interfaz gráfica de usuario) ? - Definición en WhatIs.com. (n.d.). Retrieved July 18, 2020, from https://searchdatacenter.techtarget.com/es/definicion/GUI-interfaz-grafica-de-usuario
 
@@ -605,4 +646,4 @@ wxpython - Empezando con wxpython | wxpython Tutorial. (n.d.). Retrieved July 19
  
  
  
-### ANEXOS
+## ANEXOS
