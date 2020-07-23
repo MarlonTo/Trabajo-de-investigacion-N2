@@ -677,3 +677,4 @@ wxpython - Empezando con wxpython | wxpython Tutorial. (n.d.). Retrieved July 19
 ![](ANEXOS/Parte2.JPG)
 ![](ANEXOS/Parte3.JPG)
 ![](ANEXOS/Parte4.JPG)
+![](ANEXOS/Parte5.JPG)
