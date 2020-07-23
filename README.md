@@ -626,6 +626,9 @@ Las librerías de entorno visual son una gran herramienta la cual permite al usu
 ## RECOMENDACIONES
  
 ## CRONOGRAMA
+
+![](IMG/15.PNG)
+
  
 ## BIBLIOGRAFÍA:
 
