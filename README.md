@@ -617,7 +617,9 @@ Para poder crear nuestra calculadora se utilizó dos elementos fundamentales: un
 
 Es un editor de código fuente, el cual está desarrollado por Microsoft para Windows, Mac y Linux. Este código combina la interfaz de usuario optimizada de un editor moderno, con asistencia y navegación de un código enriquecido, generando una experiencia de depuración integrada sin la necesidad de un IDE completo; cuenta con herramientas que permiten al usuario programar en cualquier lenguaje y compilarlo en vivo viendo cómo se desarrolla su código y cuáles son sus errores. Este proporciona emuladores locales de extensiones para compilar, ejecutar y depurar aplicaciones en la nube directamente desde el editor quien importa y administra datos para la base de datos locales o remotos y, es compatible con Azure Cosmos DB, MongoDB, etc. Además incluye flujos de trabajo guiados para  Azure Pipelines que permiten crear y configurar un integración continua y admite casi todos los lenguajes y tipo de aplicaciones incluidas las aplicaciones web estáticas, las aplicaciones de Azure Functions sin servidor y los clústeres de Kubernetes.
 
-### Python es un lenguaje de programación interpretado, que en su filosofía hace un hincapié en que el programador sea capaz de leer el código, compilarlo y comprenderlo de un manera sencilla y comprensible para el mismo, el lenguaje de programación es multiparadigma ya que soporta programación orientada objetos, programación imperativa y un poco de programación funcional. En esta ocasión para nuestra calculadora utilizaremos librerías de programación orientado a objetos. Su creador llamado Guido van Rossum en 1989 decidió crear “un lenguaje que sea fácil, intuitivo, potente y amigable para todos los programadores”, Python permite varios estilos de programación y además otros paradigmas, los cuales están soportados mediante el uso de extensiones.
+### Python 
+
+Es un lenguaje de programación interpretado, que en su filosofía hace un hincapié en que el programador sea capaz de leer el código, compilarlo y comprenderlo de un manera sencilla y comprensible para el mismo, el lenguaje de programación es multiparadigma ya que soporta programación orientada objetos, programación imperativa y un poco de programación funcional. En esta ocasión para nuestra calculadora utilizaremos librerías de programación orientado a objetos. Su creador llamado Guido van Rossum en 1989 decidió crear “un lenguaje que sea fácil, intuitivo, potente y amigable para todos los programadores”, Python permite varios estilos de programación y además otros paradigmas, los cuales están soportados mediante el uso de extensiones.
 
 Una vez obtenido nuestras dos herramientas procedemos a implementar en Visual Code a Python una vez realizado, nos acercamos el icono de extensiones de visual Code y nos descargaremos Magic Python, el cual, Es un paquete que permite resaltar ciertos aspectos en la sintaxis del código de programación por medio de diversos colores  permitiendo al programador identificar que se está realizando ya sean estructuras funciones importaciones entre otros.
 
@@ -659,6 +661,13 @@ Tkinter es excelente para aplicaciones GUI pequeñas y rápidas, y dado que se e
 
  
 ## 9. RECOMENDACIONES
+
+Se recomienda tener en cuenta que la calculadora utiliza el lenguaje de programacion Python y una de sus librerias la cual es TKinter, por lo que se requiere de conocimientos previos de programacion y de de las funciones propias que posee la libreria.
+
+se recomienda que al momento de ubicar la los botones de la calculadora dentro de la ventana crear una lista lo que permitirá junto con la función grill ubicarlo por medio de filas y columnas utilizando estructuras cíclicas FOR.
+
+Se recomienda también tener en cuenta las funciones de unicode que se utilizaron en esta ocasión para representar los símbolos de borrar y división y lo la función de colores que nos permite mostrar la pantalla en diversos colores.
+
  
 ## 10. CRONOGRAMA
 
