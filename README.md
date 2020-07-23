@@ -620,7 +620,7 @@ Cada vez que seleccione un botón de opción, el valor de la variable cambiará 
 
 Se pudo modificar un algoritmo en lenguaje de programación Python el cual nos permite realizar las 4 operaciones básicas.
  
-Las librerías de entorno visual son una gran herramienta la cual permite al usuario poder interactuar con el programa de una manera más dinámica y visual.
+Tkinter es excelente para aplicaciones GUI pequeñas y rápidas, y dado que se ejecuta en más plataformas que cualquier otro kit de herramientas GUI de Python, es una buena opción donde la portabilidad es la principal preocupación.
 
  
 ## RECOMENDACIONES
