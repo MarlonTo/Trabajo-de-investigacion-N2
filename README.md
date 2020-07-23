@@ -612,6 +612,8 @@ Cada vez que seleccione un botón de opción, el valor de la variable cambiará 
 ## 5. LISTA DE COMPONENTES
  
 ## 6. MAPA DE VARIABLES
+
+![](IMG/Capture.PNG)
  
 ## 7. EXPLICACIÓN DE CÓDIGO FUENTE
 
