@@ -67,7 +67,7 @@ Las tres bibliotecas de las gui:
 
 
 
-#### WxPython
+### WxPython
 
 WxPython le da a un desarrollador una forma de beneficiarse de una biblioteca de GUI multiplataforma, con una licencia clara, al mismo tiempo que brinda los beneficios de Python. Al igual que wxWidgets y Python, wxPython es gratuito y de código abierto, y está disponible para su uso y distribución en proyectos tanto gratuitos como comerciales sin el requisito de distribuir su código fuente (Chazallet, 2015).
 Wxpython - Empezando Con Wxpython | Wxpython Tutorial, n.d. dice que: Suite GUI completa que incluye (pero no se limita a): Windows (incluyendo Windows MDI), Magos, Marcos y MiniFrames, diálogos, estándar, avanzado y personalizado, libros, árboles, cuadrículas y controles de vista de datos, tiene indicadores, controles deslizantes, giradores, animaciones, portapapeles, arrastrar y soltar, también tiene compatibilidad con HTML, PDF y visor de imágenes
@@ -88,7 +88,7 @@ Los componentes de la GUI se pueden posicionar de forma absoluta, pero se recomi
 WxPython nació cuando Robin Dunn necesitaba una GUI que funcionará en sistemas HP-UX y también en Windows 3.1 en unas pocas semanas. Mientras evaluaba las soluciones comerciales, se encontró con unos bindings de Python para el toolkit wxWidgets. Por esto, aprendió Python en un corto tiempo, y se convirtió en uno de los principales desarrolladores de WxPython que se generó a partir de esos bindings iniciales, junto a Harri Pasanen. Las primeras versiones del wrapper fueron creadas a mano. Sin embargo, el código base no tardó en tornarse muy difícil de mantener en sincronización con los releases de wxWidgets. Pero las versiones posteriores fueron creadas con SWIG, reduciendo enormemente la cantidad de trabajo necesario para actualizar el wrapper. La primera versión "moderna" fue anunciada en 1998. A partir del 2011 el código de wxPython fue casi totalmente reescrito en lo que se llamó el proyecto Phoenix. El objetivo principal de este proyecto era automatizar lo máximo posible el desarrollo de los bindings de Python para el tookit wxWidgets, disminuyendo con ello el trabajo necesario para mantener wxPython.2​ Además la nueva versión sería compatible con la versión 3 de Python.
 Los aspectos destacados, tenga en cuenta que wxWidgets comprende 100s de clases para el desarrollo de aplicaciones multiplataforma (Wxpython - Empezando Con Wxpython | Wxpython Tutorial, n.d.):
 
-Diseño de la ventana usando Sizers
+#### Diseño de la ventana usando Sizers
 
   *Contextos de dispositivos (junto con bolígrafos, pinceles y fuentes)
   
@@ -124,7 +124,7 @@ Diseño de la ventana usando Sizers
   
   *Portapapeles y arrastrar y soltar
   
-Ejemplo:
+#### Ejemplo:
 
   import wx
   
@@ -141,11 +141,11 @@ Aquí está el resultado:
 ![](IMG/1.PNG)
 
 
-#### PyQt
+### PyQt
 PyQt implementa la popular biblioteca Qt, por lo que, si está familiarizado con el desarrollo de Qt en otro idioma, quizás desde el desarrollo de aplicaciones nativas para KDE u otro entorno de escritorio con Qt, es posibles que ya esté familiarizado con Qt. Esto abre la posibilidad de desarrollar aplicaciones en Python que tengan un aspecto familiar en muchas plataformas, al tiempo que aprovechan las herramientas y el conocimiento de la gran comunidad de Qt. (Chazallet, 2015)
 PyQt tiene doble licencia bajo licencia comercial y GLP, similar al proyecto Qt en sí, y la compañía principal que brinda soporte a PyQt ofrece una licencia de FAQ para ayudar a entender lo que esto significa para su aplicación. Para otra opción para usar las bibliotecas Qt con Python, considere la posibilidad de verificar PySide, que está disponible bajo LPGL.(PyQt - Wikipedia, La Enciclopedia Libre, n.d.)
 
-Ejemplo simple
+#### Ejemplo simple
 
 import sys
 
@@ -169,15 +169,15 @@ ventanita.show()
 
 sys.exit(app.exec())
 
-Aquí está el resultado: 
+#### Aquí está el resultado: 
 
 ![](IMG/2.PNG)
 
 
-####  3.   Tkinter
+###  3.   Tkinter
 Si hubiera un único paquete que podría denominarse el kit de herramientas GUI “estándar” para Python, sería Tkinter. Tkinter es una envoltura alrededor de Tcl/Tk, una interfaz gráfica popular y el emparejamiento de idiomas que se popularizó por primera vez a principios de los 90. La ventaja de elegir Tkinter es la gran cantidad de recursos, incluidos libros y ejemplos de código, así como una gran comunidad de usuarios que pueden ayudarlo si tiene alguna pregunta. Los ejemplos simples son fáciles de comenzar y bastante legibles para los humanos. Tkinter está disponible bajo la licencia de Python, además de la licencia BSD de Tcl/Tk. (Chazallet, 2015)
 
-Ventajas:
+#### Ventajas:
 
 Preinstalado con python en casi todas las plataformas
 
@@ -185,7 +185,7 @@ Relativamente simple y fácil de aprender (recomendado para "aprendices")
 
 Documentación completa
 
-Desventajas:
+#### Desventajas:
 
 Pocos elementos gráficos (sin listas, árboles, etc.)
 
@@ -197,7 +197,7 @@ Apariencia "extraña" (no se parece a las aplicaciones nativas)
 
 
 
-Ahora vamos a mostrar un pequeño ejemplo de las cosas que se puede hacer en esta librería:
+#### Ahora vamos a mostrar un pequeño ejemplo de las cosas que se puede hacer en esta librería:
 
 Mokhtar Ebrahim, 2018, dice que Para crear paquete Tkinter y crearemos una ventana y estableceremos su título:
 
@@ -213,11 +213,11 @@ La última línea llama a la función mainloop. Esta función llama al ciclo sin
 
 ![](IMG/3.PNG)
 
-Para agregar una etiqueta a nuestro ejemplo anterior, crearemos una etiqueta usando la clase label de la siguiente manera:
+#### Para agregar una etiqueta a nuestro ejemplo anterior, crearemos una etiqueta usando la clase label de la siguiente manera:
 
 lbl = Label(window, text="Hello")
 
-Para establecer su posición en el formulario utilizando la función grid con su ubicación, de esta manera:
+#### Para establecer su posición en el formulario utilizando la función grid con su ubicación, de esta manera:
 
 lbl.grid(column=0, row=0)
 
@@ -237,7 +237,7 @@ window.mainloop()
 
 ![](IMG/4.PNG)
 
-Si quieres agregar un botón primero:Comencemos agregando un botón a la ventana. El botón se crea y se agrega a la ventana de la misma manera que la etiqueta
+#### Si quieres agregar un botón primero:Comencemos agregando un botón a la ventana. El botón se crea y se agrega a la ventana de la misma manera que la etiqueta
 
 btn = Button(window, text="Click Me")
 
@@ -269,14 +269,14 @@ btn.grid(column=1, row=0)
 
 window.mainloop()
 
-Y el resultado se verá así:
+#### Y el resultado se verá así:
 
 ![](IMG/5.PNG)
 
 
 Hay que tener en cuenta que colocamos el botón en la segunda columna de la ventana, que es la 1. Si olvidas eso y colocas el botón en la misma columna (en este caso la 0), se mostrará el botón solamente, ya que el botón estará por encima de la etiqueta.
 
-Cambiar los colores de fondo y primer plano de un botón.
+#### Cambiar los colores de fondo y primer plano de un botón.
 
 Puedes cambiar el color de frente del botón o de cualquier otro widget usando la propiedad fg.
 
@@ -289,19 +289,19 @@ btn = Button(window, text="Click Me", bg="orange", fg="red").
 
 Ahora, si trataste de hacer click en el botón, no pasó nada, porque el evento click del botón aún no está programado.
 
-Manejar el evento click de un botón
+#### Manejar el evento click de un botón
 
 Primero, escribiremos la función que necesitamos ejecutar cuando se haga click en el botón:def clicked():
 
   	  lbl.configure(text="Button was clicked !!")
      
-Luego la cableamos con el botón especificando la función de esta manera:
+#### Luego la cableamos con el botón especificando la función de esta manera:
 
 btn = Button(window, text="Click Me", command=clicked)
 
 Fíjate que, escribimos clicked simplement y no clicked() con paréntesis.
 
-Ahora el código completo se verá de esta manera:
+#### Ahora el código completo se verá de esta manera:
 
 from tkinter import *
 
@@ -325,13 +325,13 @@ btn.grid(column=1, row=0)
 
 window.mainloop()
 
-Y cuando hacemos click en el botón, el resultado es el esperado:
+#### Y cuando hacemos click en el botón, el resultado es el esperado:
 
 ![](IMG/7.PNG)
 
 
 
-Entrada de datos usando la clase Entry (Tkinter textbox)
+#### Entrada de datos usando la clase Entry (Tkinter textbox)
 
 En los ejemplos anteriores de Python GUI, vimos cómo agregar widgets simples, ahora intentemos obtener una entrada del usuario utilizando la clase Tkinter Entry (cuadro de texto de Tkinter).
 
@@ -414,7 +414,7 @@ btn.grid(column=2, row=0)
 
 window.mainloop()
 
-Ejecuta el código anterior y verifica el resultado:
+#### Ejecuta el código anterior y verifica el resultado:
 
 ![](IMG/9.PNG)
 
@@ -439,7 +439,8 @@ txt = Entry(window,width=10, state='disabled')
 
 Ahora, ya no podrás ingresar ningún texto.
 
-Agregar un widget combobox
+
+#### Agregar un widget combobox
 
 Para agregar un widget combobox, puedes usar la clase Combobox de la librería ttk, de esta manera:
 
@@ -476,7 +477,7 @@ Como puedes ver, agregamos los elementos del combobox usando una tupla de valore
 
 combo.get() 
 
-Agregar un widget Checkbutton (Tkinter checkbox)
+#### Agregar un widget Checkbutton (Tkinter checkbox)
 
 Para crear un widget Checkbutton, puedes usar la clase Checkbutton de esta manera:
 
@@ -504,12 +505,12 @@ chk.grid(column=0, row=0)
 
 window.mainloop()
 
-Verifica el resultado:
+#### Verifica el resultado:
 
 ![](IMG/12.PNG)
 
 
-Establecer el estado de un Checkbutton
+#### Establecer el estado de un Checkbutton
 
 Aquí creamos una variable de tipo BooleanVar que no es una variable Python estándar, es una variable Tkinter. Luego la pasamos a la clase Checkbutton para establecer el estado de verificación como la línea resaltada en el ejemplo anterior.
 
@@ -523,7 +524,7 @@ chk_state.set(0) #uncheck
 
 chk_state.set(1) #check
 
- Agregar widgets radio button
+#### Agregar widgets radio button
  
 Para agregar radio buttons, simplemente puedes usar la clase RadioButton, de esta manera:
 
@@ -560,14 +561,14 @@ El resultado del código anterior se ve así:
 ![](IMG/13.PNG)
 
 
-Además, puedes configurar el command de cualquiera de estos botones de opción para una función específica, de modo que si el usuario hace click en alguno de ellos, ejecuta el código de la función asignada.
+####  Además, puedes configurar el command de cualquiera de estos botones de opción para una función específica, de modo que si el usuario hace click en alguno de ellos, ejecuta el código de la función asignada.
 
 Aquí un ejemplo:
 
 rad1 = Radiobutton(window,text='First', value=1, command=clicked)
 def clicked():
 
-Obtener el valor del radio button (opción seleccionada)
+#### Obtener el valor del radio button (opción seleccionada)
 
 Para obtener el botón de opción actualmente seleccionado o el valor del botón de opción, puedes pasar un parámetro variable a los botones de opción y más adelante puede obtener 
 
@@ -608,29 +609,31 @@ window.mainloop()
 
 Cada vez que seleccione un botón de opción, el valor de la variable cambiará al valor de la opción seleccionada.
  
-## LISTA DE COMPONENTES
+## 5. LISTA DE COMPONENTES
  
-## MAPA DE VARIABLES
- 
-## EXPLICACIÓN DE CÓDIGO FUENTE
+## 6. MAPA DE VARIABLES
 
-## APORTACIONES
+![](IMG/Capture.PNG)
  
-## CONCLUSIONES
+
+
+## 7. APORTACIONES
+ 
+## 8. CONCLUSIONES
 
 Se pudo modificar un algoritmo en lenguaje de programación Python el cual nos permite realizar las 4 operaciones básicas.
  
-Las librerías de entorno visual son una gran herramienta la cual permite al usuario poder interactuar con el programa de una manera más dinámica y visual.
+Tkinter es excelente para aplicaciones GUI pequeñas y rápidas, y dado que se ejecuta en más plataformas que cualquier otro kit de herramientas GUI de Python, es una buena opción donde la portabilidad es la principal preocupación.
 
  
-## RECOMENDACIONES
+## 9. RECOMENDACIONES
  
-## CRONOGRAMA
+## 10. CRONOGRAMA
 
 ![](IMG/15.PNG)
 
  
-## BIBLIOGRAFÍA:
+## 11. BIBLIOGRAFÍA:
 
 (Wxpython - Empezando Con Wxpython | Wxpython Tutorial, n.d.)¿Qué es GUI (interfaz gráfica de usuario) ? - Definición en WhatIs.com. (n.d.). Retrieved July 18, 2020, from https://searchdatacenter.techtarget.com/es/definicion/GUI-interfaz-grafica-de-usuario
 
@@ -649,4 +652,4 @@ wxpython - Empezando con wxpython | wxpython Tutorial. (n.d.). Retrieved July 19
  
  
  
-## ANEXOS
+## 12. ANEXOS
