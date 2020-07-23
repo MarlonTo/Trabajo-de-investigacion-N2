@@ -662,11 +662,12 @@ Tkinter es excelente para aplicaciones GUI pequeñas y rápidas, y dado que se e
  
 ## 9. RECOMENDACIONES
 
-Se recomienda tener en cuenta que la calculadora utiliza el lenguaje de programacion Python y una de sus librerias la cual es TKinter, por lo que se requiere de conocimientos previos de programacion y de de las funciones propias que posee la libreria.
+Se recomienda tener en cuenta que la calculadora utiliza el lenguaje de programación Python y una de sus librerías la cual es TKinter, por lo que se requiere de conocimientos previos de programación y de  las funciones propias que posee la librería.
 
-se recomienda que al momento de ubicar la los botones de la calculadora dentro de la ventana crear una lista lo que permitirá junto con la función grill ubicarlo por medio de filas y columnas utilizando estructuras cíclicas FOR.
+También recomendamos que al momento de ubicar la los botones de la calculadora dentro de la ventana crear una lista lo que permitirá junto con la función grill ubicarlo por medio de filas y columnas utilizando estructuras cíclicas FOR.
 
-Se recomienda también tener en cuenta las funciones de unicode que se utilizaron en esta ocasión para representar los símbolos de borrar y división y lo la función de colores que nos permite mostrar la pantalla en diversos colores.
+Se recomienda también tener en cuenta las funciones de Unicode que se utilizaron en esta ocasión para representar los símbolos de borrar y división y lo la función de colores que nos permite mostrar la pantalla en diversos colores.
+
 
  
 ## 10. CRONOGRAMA
