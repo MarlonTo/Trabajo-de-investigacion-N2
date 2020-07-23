@@ -673,7 +673,7 @@ wxpython - Empezando con wxpython | wxpython Tutorial. (n.d.). Retrieved July 19
  
  
 ## 12. ANEXOS
-![](IMG/Parte1.JPG)
-![](IMG/Parte2.JPG)
-![](IMG/Parte3.JPG)
-![](IMG/Parte4.JPG)
+![](ANEXOS/Parte1.JPG)
+![](ANEXOS/Parte2.JPG)
+![](ANEXOS/Parte3.JPG)
+![](ANEXOS/Parte4.JPG)
